@@ -7,7 +7,7 @@ string randDNA( int seed, string word, int n){
 
 
 	if( word.length() < 1 )
-		return " ";
+		return "";
 
 	int min = 0;
 	int max = word.length() - 1;
